@@ -11,15 +11,25 @@ metro station late at night.
 - Indian
 - Lean build
 - Short, slightly messy dark hair
-- Clean, natural facial appearance
 - Dark eyes
+- Natural facial appearance
 
 ### Wardrobe
 
-- Dark charcoal/black casual shirt
+- Dark charcoal casual shirt
 - Dark trousers
 - Simple dark footwear
 - Minimal accessories
+
+## Character Reference
+
+A dedicated character reference image was created before
+generating the video sequence.
+
+This image was used as the visual anchor for the AI video
+generations.
+
+**Reference:** [Character Reference](references/character-reference.png)
 
 ## Character Consistency Rules
 
@@ -33,20 +43,12 @@ The following elements should remain consistent across shots:
 - Overall appearance
 - Age and physical build
 
-## Character Reference
-
-A dedicated reference image was created before generating
-the video sequence.
-
-The reference was used as the visual anchor for subsequent
-video generations to reduce character drift.
-
 ## Doppelgänger
 
 The second character is intentionally designed to look
 identical to the protagonist.
 
-The following should match:
+The following characteristics should match:
 
 - Face
 - Hairstyle
@@ -59,9 +61,9 @@ visual device used to create the mystery.
 
 ## Consistency Strategy
 
-Each new shot was checked against the reference and previous
-successful generations.
+Each new shot was checked against the character reference
+and previous successful generations.
 
 When a generation changed the character's appearance or
-introduced unwanted visual differences, the prompt or reference
-was adjusted before continuing.
+introduced unwanted visual differences, the prompt or
+reference was adjusted before continuing.
